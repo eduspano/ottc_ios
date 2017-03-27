@@ -1,0 +1,32 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'OTTC' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for OTTC
+  pod 'MMWormhole', '~> 2.0.0'
+  pod 'OneSignal'
+
+  target 'OTTCTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'OTTCUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'OTTCWidget' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for OTTCWidget
+  pod 'MMWormhole', '~> 2.0.0'
+  pod 'OneSignal'
+
+end

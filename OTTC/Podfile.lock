@@ -1,0 +1,17 @@
+PODS:
+  - MMWormhole (2.0.0):
+    - MMWormhole/Core (= 2.0.0)
+  - MMWormhole/Core (2.0.0)
+  - OneSignal (2.3.5)
+
+DEPENDENCIES:
+  - MMWormhole (~> 2.0.0)
+  - OneSignal
+
+SPEC CHECKSUMS:
+  MMWormhole: 0cd3fd35a9118b2e2d762b499f54eeaace0be791
+  OneSignal: 4cb42948ebc141bd5deb54d3fda25105db94f6d4
+
+PODFILE CHECKSUM: 41bbf55a72f3b8eb86fe587828e9d10b6cb7c78c
+
+COCOAPODS: 1.2.0

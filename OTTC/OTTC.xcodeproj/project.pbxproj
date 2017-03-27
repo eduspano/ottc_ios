@@ -1,0 +1,1151 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		505555AD6A20A4F382F007D7 /* Pods_OTTCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BA00B07A995A6B0D9FD1C7 /* Pods_OTTCUITests.framework */; };
+		531A0A2A1DE47CDF0074F09F /* SACCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531A0A291DE47CDF0074F09F /* SACCellViewController.swift */; };
+		531A0A2C1DE490980074F09F /* SACINPUTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531A0A2B1DE490980074F09F /* SACINPUTViewController.swift */; };
+		531A0A2E1DE49D580074F09F /* SACViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531A0A2D1DE49D580074F09F /* SACViewController.swift */; };
+		5322C60F1E1D562000644576 /* LocalData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5322C60E1E1D562000644576 /* LocalData.plist */; };
+		5327E5801DEB3310004026A8 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5327E57F1DEB3310004026A8 /* Users.swift */; };
+		53316AAD1DE8C05700C7CF19 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53316AAC1DE8C05700C7CF19 /* API.swift */; };
+		533830E01E265F1900A79752 /* LocalData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5322C60E1E1D562000644576 /* LocalData.plist */; };
+		533830E11E26615D00A79752 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E209281E09931900CDF409 /* TodayViewController.swift */; };
+		533830E21E26621D00A79752 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E2092A1E09931A00CDF409 /* MainInterface.storyboard */; };
+		534238911DE3600C000A6FF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534238901DE3600C000A6FF5 /* AppDelegate.swift */; };
+		534238931DE3600C000A6FF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534238921DE3600C000A6FF5 /* ViewController.swift */; };
+		534238961DE3600C000A6FF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534238941DE3600C000A6FF5 /* Main.storyboard */; };
+		534238991DE3600C000A6FF5 /* OTTC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 534238971DE3600C000A6FF5 /* OTTC.xcdatamodeld */; };
+		5342389B1DE3600C000A6FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5342389A1DE3600C000A6FF5 /* Assets.xcassets */; };
+		5342389E1DE3600C000A6FF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5342389C1DE3600C000A6FF5 /* LaunchScreen.storyboard */; };
+		534238A91DE3600C000A6FF5 /* OTTCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534238A81DE3600C000A6FF5 /* OTTCTests.swift */; };
+		534238B41DE3600C000A6FF5 /* OTTCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534238B31DE3600C000A6FF5 /* OTTCUITests.swift */; };
+		534238C81DE367DF000A6FF5 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 534238C61DE367DF000A6FF5 /* LoginViewController.xib */; };
+		534238CA1DE36812000A6FF5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534238C91DE36812000A6FF5 /* LoginViewController.swift */; };
+		534238CE1DE37420000A6FF5 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 534238CC1DE37420000A6FF5 /* RegisterViewController.xib */; };
+		534238D21DE374B0000A6FF5 /* ForgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 534238D01DE374B0000A6FF5 /* ForgetViewController.xib */; };
+		534238D51DE374CC000A6FF5 /* ForgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534238D31DE374CC000A6FF5 /* ForgetViewController.swift */; };
+		534238D61DE374CC000A6FF5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534238D41DE374CC000A6FF5 /* RegisterViewController.swift */; };
+		534770181E3FC6CE003BC32A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53316AAC1DE8C05700C7CF19 /* API.swift */; };
+		534770191E3FC71E003BC32A /* Plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348DB6C1E1EC62C00E95DCC /* Plist.swift */; };
+		5347701C1E3FC76F003BC32A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534238901DE3600C000A6FF5 /* AppDelegate.swift */; };
+		5347701D1E3FC7DC003BC32A /* OperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BC2AE41DEDC3D300BB6BDA /* OperatorViewController.swift */; };
+		5347701E1E3FC7EF003BC32A /* PlayerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CA399D1E1C21A000FD7824 /* PlayerCollectionViewCell.swift */; };
+		5348DB6D1E1EC62C00E95DCC /* Plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5348DB6C1E1EC62C00E95DCC /* Plist.swift */; };
+		5378057A1DE75E59003AF1C7 /* PerfilViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 537805781DE75E59003AF1C7 /* PerfilViewController.xib */; };
+		5378057C1DE75E9A003AF1C7 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5378057B1DE75E9A003AF1C7 /* PerfilViewController.swift */; };
+		537805801DE76957003AF1C7 /* EditPerfilViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5378057E1DE76957003AF1C7 /* EditPerfilViewController.xib */; };
+		537805821DE769DF003AF1C7 /* EditPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537805811DE769DF003AF1C7 /* EditPerfilViewController.swift */; };
+		537805861DE78DC7003AF1C7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537805851DE78DC7003AF1C7 /* MapViewController.swift */; };
+		5384B0EB1E3773DB00BB6544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534238941DE3600C000A6FF5 /* Main.storyboard */; };
+		53BC2AE51DEDC3D300BB6BDA /* OperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BC2AE41DEDC3D300BB6BDA /* OperatorViewController.swift */; };
+		53CA399C1E1C215600FD7824 /* PlayerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53CA399A1E1C215600FD7824 /* PlayerCollectionViewCell.xib */; };
+		53CA399E1E1C21A000FD7824 /* PlayerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CA399D1E1C21A000FD7824 /* PlayerCollectionViewCell.swift */; };
+		53CF1A5C1DEE56DF00EC4E1A /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CF1A5B1DEE56DF00EC4E1A /* Points.swift */; };
+		53CF1A5E1DEE68A000EC4E1A /* Trips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CF1A5D1DEE68A000EC4E1A /* Trips.swift */; };
+		53DC8E4A1DE692550057CA02 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DC8E491DE692550057CA02 /* TabViewController.swift */; };
+		53DC8E4D1DE697840057CA02 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DC8E4C1DE697840057CA02 /* MapKit.framework */; };
+		53DC8E511DE69F920057CA02 /* ListItemTripInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53DC8E4F1DE69F920057CA02 /* ListItemTripInfoTableViewCell.xib */; };
+		53DC8E581DE69FE80057CA02 /* ListItemTripInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DC8E561DE69FE80057CA02 /* ListItemTripInfoTableViewCell.swift */; };
+		53DC8E5B1DE6A5C90057CA02 /* TripsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DC8E5A1DE6A5C90057CA02 /* TripsTableViewController.swift */; };
+		53DE1B301DFF05250035B211 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DE1B2F1DFF05250035B211 /* Validation.swift */; };
+		66C632303785B6E511F313AB /* Pods_OTTCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 290889518A1DD76EBF643289 /* Pods_OTTCTests.framework */; };
+		730F011B1E6887D700C01A8E /* EventChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730F011A1E6887D700C01A8E /* EventChannel.swift */; };
+		730F011C1E6887D700C01A8E /* EventChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730F011A1E6887D700C01A8E /* EventChannel.swift */; };
+		738B56E11E896B5A004FC7E3 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 738B56E01E896B5A004FC7E3 /* Config.plist */; };
+		73E209261E09931900CDF409 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E209251E09931900CDF409 /* NotificationCenter.framework */; };
+		73E209291E09931900CDF409 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E209281E09931900CDF409 /* TodayViewController.swift */; };
+		73E2092C1E09931A00CDF409 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E2092A1E09931A00CDF409 /* MainInterface.storyboard */; };
+		73E209301E09931A00CDF409 /* OTTCWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 73E209241E09931600CDF409 /* OTTCWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		73E209351E09986F00CDF409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5342389A1DE3600C000A6FF5 /* Assets.xcassets */; };
+		74DF589CC3574269C449E0B1 /* Pods_OTTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362B48254E0981C1688C7769 /* Pods_OTTC.framework */; };
+		AD1A5929CF85EE8287C95964 /* Pods_OTTCWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D415B90E020268F903BFCF11 /* Pods_OTTCWidget.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		534238A51DE3600C000A6FF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 534238851DE3600C000A6FF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5342388C1DE3600C000A6FF5;
+			remoteInfo = OTTC;
+		};
+		534238B01DE3600C000A6FF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 534238851DE3600C000A6FF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5342388C1DE3600C000A6FF5;
+			remoteInfo = OTTC;
+		};
+		73946E9B1E5615BF00B7E97B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 534238851DE3600C000A6FF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5342388C1DE3600C000A6FF5;
+			remoteInfo = OTTC;
+		};
+		73E2092E1E09931A00CDF409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 534238851DE3600C000A6FF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73E209231E09931600CDF409;
+			remoteInfo = OTTCWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		73E209341E09931A00CDF409 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				73E209301E09931A00CDF409 /* OTTCWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03F0498C6896A274F4FEBFD0 /* Pods-OTTCWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTTCWidget.release.xcconfig"; path = "Pods/Target Support Files/Pods-OTTCWidget/Pods-OTTCWidget.release.xcconfig"; sourceTree = "<group>"; };
+		0F94B92330FF6C0DDC5D08F4 /* Pods-OTTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTTC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OTTC/Pods-OTTC.debug.xcconfig"; sourceTree = "<group>"; };
+		1301F32AF1F538E352BDDC49 /* Pods-OTTCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTTCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OTTCUITests/Pods-OTTCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		290889518A1DD76EBF643289 /* Pods_OTTCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTTCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		362B48254E0981C1688C7769 /* Pods_OTTC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTTC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		443F37DCC587ADF71C98B0DE /* Pods-OTTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTTC.release.xcconfig"; path = "Pods/Target Support Files/Pods-OTTC/Pods-OTTC.release.xcconfig"; sourceTree = "<group>"; };
+		531A0A291DE47CDF0074F09F /* SACCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SACCellViewController.swift; sourceTree = "<group>"; };
+		531A0A2B1DE490980074F09F /* SACINPUTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SACINPUTViewController.swift; sourceTree = "<group>"; };
+		531A0A2D1DE49D580074F09F /* SACViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SACViewController.swift; sourceTree = "<group>"; };
+		5322C60E1E1D562000644576 /* LocalData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LocalData.plist; sourceTree = "<group>"; };
+		5327E57F1DEB3310004026A8 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		53316AAC1DE8C05700C7CF19 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		5342388D1DE3600C000A6FF5 /* OTTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		534238901DE3600C000A6FF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		534238921DE3600C000A6FF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		534238951DE3600C000A6FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		534238981DE3600C000A6FF5 /* OTTC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OTTC.xcdatamodel; sourceTree = "<group>"; };
+		5342389A1DE3600C000A6FF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5342389D1DE3600C000A6FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5342389F1DE3600C000A6FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		534238A41DE3600C000A6FF5 /* OTTCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTTCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		534238A81DE3600C000A6FF5 /* OTTCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTCTests.swift; sourceTree = "<group>"; };
+		534238AA1DE3600C000A6FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		534238AF1DE3600C000A6FF5 /* OTTCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTTCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		534238B31DE3600C000A6FF5 /* OTTCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTCUITests.swift; sourceTree = "<group>"; };
+		534238B51DE3600C000A6FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		534238C61DE367DF000A6FF5 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		534238C91DE36812000A6FF5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		534238CC1DE37420000A6FF5 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		534238D01DE374B0000A6FF5 /* ForgetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgetViewController.xib; sourceTree = "<group>"; };
+		534238D31DE374CC000A6FF5 /* ForgetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgetViewController.swift; sourceTree = "<group>"; };
+		534238D41DE374CC000A6FF5 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5348DB6C1E1EC62C00E95DCC /* Plist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plist.swift; sourceTree = "<group>"; };
+		537805781DE75E59003AF1C7 /* PerfilViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PerfilViewController.xib; sourceTree = "<group>"; };
+		5378057B1DE75E9A003AF1C7 /* PerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		5378057E1DE76957003AF1C7 /* EditPerfilViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditPerfilViewController.xib; sourceTree = "<group>"; };
+		537805811DE769DF003AF1C7 /* EditPerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPerfilViewController.swift; sourceTree = "<group>"; };
+		537805851DE78DC7003AF1C7 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		53AB78201E2514CD00AEE47C /* OTTC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OTTC.entitlements; sourceTree = "<group>"; };
+		53AB78211E25218F00AEE47C /* OTTCWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OTTCWidget.entitlements; sourceTree = "<group>"; };
+		53BC2AE41DEDC3D300BB6BDA /* OperatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorViewController.swift; sourceTree = "<group>"; };
+		53CA399A1E1C215600FD7824 /* PlayerCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerCollectionViewCell.xib; sourceTree = "<group>"; };
+		53CA399D1E1C21A000FD7824 /* PlayerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCollectionViewCell.swift; sourceTree = "<group>"; };
+		53CF1A5B1DEE56DF00EC4E1A /* Points.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
+		53CF1A5D1DEE68A000EC4E1A /* Trips.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trips.swift; sourceTree = "<group>"; };
+		53DC8E491DE692550057CA02 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		53DC8E4C1DE697840057CA02 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		53DC8E4F1DE69F920057CA02 /* ListItemTripInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListItemTripInfoTableViewCell.xib; sourceTree = "<group>"; };
+		53DC8E561DE69FE80057CA02 /* ListItemTripInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemTripInfoTableViewCell.swift; sourceTree = "<group>"; };
+		53DC8E5A1DE6A5C90057CA02 /* TripsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripsTableViewController.swift; sourceTree = "<group>"; };
+		53DE1B2F1DFF05250035B211 /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		5836797FC340FFC52C44AB8B /* Pods-OTTCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTTCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OTTCUITests/Pods-OTTCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		598F7A8AF7E6BA7574622525 /* Pods-OTTCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTTCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OTTCTests/Pods-OTTCTests.release.xcconfig"; sourceTree = "<group>"; };
+		730F011A1E6887D700C01A8E /* EventChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventChannel.swift; sourceTree = "<group>"; };
+		738B56E01E896B5A004FC7E3 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		73E209241E09931600CDF409 /* OTTCWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OTTCWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E209251E09931900CDF409 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		73E209281E09931900CDF409 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		73E2092B1E09931A00CDF409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		73E2092D1E09931A00CDF409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FCE412FE36A161DBDE7C0D7 /* Pods-OTTCWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTTCWidget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OTTCWidget/Pods-OTTCWidget.debug.xcconfig"; sourceTree = "<group>"; };
+		8E34C748AA0777E81D99B774 /* Pods-OTTCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTTCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OTTCTests/Pods-OTTCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6BA00B07A995A6B0D9FD1C7 /* Pods_OTTCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTTCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D415B90E020268F903BFCF11 /* Pods_OTTCWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTTCWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5342388A1DE3600C000A6FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DC8E4D1DE697840057CA02 /* MapKit.framework in Frameworks */,
+				74DF589CC3574269C449E0B1 /* Pods_OTTC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534238A11DE3600C000A6FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C632303785B6E511F313AB /* Pods_OTTCTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534238AC1DE3600C000A6FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505555AD6A20A4F382F007D7 /* Pods_OTTCUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73E209211E09931600CDF409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E209261E09931900CDF409 /* NotificationCenter.framework in Frameworks */,
+				AD1A5929CF85EE8287C95964 /* Pods_OTTCWidget.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5209C61EA29B0C055BC75C7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F94B92330FF6C0DDC5D08F4 /* Pods-OTTC.debug.xcconfig */,
+				443F37DCC587ADF71C98B0DE /* Pods-OTTC.release.xcconfig */,
+				8E34C748AA0777E81D99B774 /* Pods-OTTCTests.debug.xcconfig */,
+				598F7A8AF7E6BA7574622525 /* Pods-OTTCTests.release.xcconfig */,
+				1301F32AF1F538E352BDDC49 /* Pods-OTTCUITests.debug.xcconfig */,
+				5836797FC340FFC52C44AB8B /* Pods-OTTCUITests.release.xcconfig */,
+				7FCE412FE36A161DBDE7C0D7 /* Pods-OTTCWidget.debug.xcconfig */,
+				03F0498C6896A274F4FEBFD0 /* Pods-OTTCWidget.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		534238841DE3600C000A6FF5 = {
+			isa = PBXGroup;
+			children = (
+				5342388F1DE3600C000A6FF5 /* OTTC */,
+				534238A71DE3600C000A6FF5 /* OTTCTests */,
+				534238B21DE3600C000A6FF5 /* OTTCUITests */,
+				73E209271E09931900CDF409 /* OTTCWidget */,
+				5342388E1DE3600C000A6FF5 /* Products */,
+				53DC8E4B1DE697840057CA02 /* Frameworks */,
+				5209C61EA29B0C055BC75C7A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		5342388E1DE3600C000A6FF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5342388D1DE3600C000A6FF5 /* OTTC.app */,
+				534238A41DE3600C000A6FF5 /* OTTCTests.xctest */,
+				534238AF1DE3600C000A6FF5 /* OTTCUITests.xctest */,
+				73E209241E09931600CDF409 /* OTTCWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5342388F1DE3600C000A6FF5 /* OTTC */ = {
+			isa = PBXGroup;
+			children = (
+				73946E9D1E561AB300B7E97B /* notification */,
+				53AB78201E2514CD00AEE47C /* OTTC.entitlements */,
+				534238901DE3600C000A6FF5 /* AppDelegate.swift */,
+				53316AAC1DE8C05700C7CF19 /* API.swift */,
+				53DC8E491DE692550057CA02 /* TabViewController.swift */,
+				534238921DE3600C000A6FF5 /* ViewController.swift */,
+				53DE1B2F1DFF05250035B211 /* Validation.swift */,
+				5348DB6C1E1EC62C00E95DCC /* Plist.swift */,
+				534238C41DE36747000A6FF5 /* view */,
+				534238C31DE36735000A6FF5 /* template */,
+				534238C21DE3672C000A6FF5 /* model */,
+				534238C11DE36726000A6FF5 /* controller */,
+				534238941DE3600C000A6FF5 /* Main.storyboard */,
+				5342389A1DE3600C000A6FF5 /* Assets.xcassets */,
+				5342389C1DE3600C000A6FF5 /* LaunchScreen.storyboard */,
+				5342389F1DE3600C000A6FF5 /* Info.plist */,
+				534238971DE3600C000A6FF5 /* OTTC.xcdatamodeld */,
+				5322C60E1E1D562000644576 /* LocalData.plist */,
+				738B56E01E896B5A004FC7E3 /* Config.plist */,
+			);
+			path = OTTC;
+			sourceTree = "<group>";
+		};
+		534238A71DE3600C000A6FF5 /* OTTCTests */ = {
+			isa = PBXGroup;
+			children = (
+				534238A81DE3600C000A6FF5 /* OTTCTests.swift */,
+				534238AA1DE3600C000A6FF5 /* Info.plist */,
+			);
+			path = OTTCTests;
+			sourceTree = "<group>";
+		};
+		534238B21DE3600C000A6FF5 /* OTTCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				534238B31DE3600C000A6FF5 /* OTTCUITests.swift */,
+				534238B51DE3600C000A6FF5 /* Info.plist */,
+			);
+			path = OTTCUITests;
+			sourceTree = "<group>";
+		};
+		534238C11DE36726000A6FF5 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				534238C91DE36812000A6FF5 /* LoginViewController.swift */,
+				534238D41DE374CC000A6FF5 /* RegisterViewController.swift */,
+				534238D31DE374CC000A6FF5 /* ForgetViewController.swift */,
+				5378057B1DE75E9A003AF1C7 /* PerfilViewController.swift */,
+				537805811DE769DF003AF1C7 /* EditPerfilViewController.swift */,
+				537805851DE78DC7003AF1C7 /* MapViewController.swift */,
+				53DC8E5A1DE6A5C90057CA02 /* TripsTableViewController.swift */,
+				53DC8E561DE69FE80057CA02 /* ListItemTripInfoTableViewCell.swift */,
+				531A0A291DE47CDF0074F09F /* SACCellViewController.swift */,
+				531A0A2B1DE490980074F09F /* SACINPUTViewController.swift */,
+				531A0A2D1DE49D580074F09F /* SACViewController.swift */,
+				53CA399D1E1C21A000FD7824 /* PlayerCollectionViewCell.swift */,
+				53BC2AE41DEDC3D300BB6BDA /* OperatorViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		534238C21DE3672C000A6FF5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				5327E57F1DEB3310004026A8 /* Users.swift */,
+				53CF1A5B1DEE56DF00EC4E1A /* Points.swift */,
+				53CF1A5D1DEE68A000EC4E1A /* Trips.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		534238C31DE36735000A6FF5 /* template */ = {
+			isa = PBXGroup;
+			children = (
+				534238C61DE367DF000A6FF5 /* LoginViewController.xib */,
+				534238CC1DE37420000A6FF5 /* RegisterViewController.xib */,
+				534238D01DE374B0000A6FF5 /* ForgetViewController.xib */,
+				537805781DE75E59003AF1C7 /* PerfilViewController.xib */,
+				5378057E1DE76957003AF1C7 /* EditPerfilViewController.xib */,
+				53DC8E4F1DE69F920057CA02 /* ListItemTripInfoTableViewCell.xib */,
+				53CA399A1E1C215600FD7824 /* PlayerCollectionViewCell.xib */,
+			);
+			path = template;
+			sourceTree = "<group>";
+		};
+		534238C41DE36747000A6FF5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		53DC8E4B1DE697840057CA02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53DC8E4C1DE697840057CA02 /* MapKit.framework */,
+				73E209251E09931900CDF409 /* NotificationCenter.framework */,
+				362B48254E0981C1688C7769 /* Pods_OTTC.framework */,
+				290889518A1DD76EBF643289 /* Pods_OTTCTests.framework */,
+				C6BA00B07A995A6B0D9FD1C7 /* Pods_OTTCUITests.framework */,
+				D415B90E020268F903BFCF11 /* Pods_OTTCWidget.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73946E9D1E561AB300B7E97B /* notification */ = {
+			isa = PBXGroup;
+			children = (
+				730F011A1E6887D700C01A8E /* EventChannel.swift */,
+			);
+			name = notification;
+			sourceTree = "<group>";
+		};
+		73E209271E09931900CDF409 /* OTTCWidget */ = {
+			isa = PBXGroup;
+			children = (
+				53AB78211E25218F00AEE47C /* OTTCWidget.entitlements */,
+				73E209281E09931900CDF409 /* TodayViewController.swift */,
+				73E2092A1E09931A00CDF409 /* MainInterface.storyboard */,
+				73E2092D1E09931A00CDF409 /* Info.plist */,
+			);
+			path = OTTCWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5342388C1DE3600C000A6FF5 /* OTTC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 534238B81DE3600C000A6FF5 /* Build configuration list for PBXNativeTarget "OTTC" */;
+			buildPhases = (
+				588376F108B05F65B2C9AE4A /* [CP] Check Pods Manifest.lock */,
+				534238891DE3600C000A6FF5 /* Sources */,
+				5342388A1DE3600C000A6FF5 /* Frameworks */,
+				5342388B1DE3600C000A6FF5 /* Resources */,
+				73E209341E09931A00CDF409 /* Embed App Extensions */,
+				FAED6A4FB7CE63A620B537B5 /* [CP] Embed Pods Frameworks */,
+				3B19661E810892D91E441BFB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73E2092F1E09931A00CDF409 /* PBXTargetDependency */,
+			);
+			name = OTTC;
+			productName = OTTC;
+			productReference = 5342388D1DE3600C000A6FF5 /* OTTC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		534238A31DE3600C000A6FF5 /* OTTCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 534238BB1DE3600C000A6FF5 /* Build configuration list for PBXNativeTarget "OTTCTests" */;
+			buildPhases = (
+				FBD86D09F55323371E817A5D /* [CP] Check Pods Manifest.lock */,
+				534238A01DE3600C000A6FF5 /* Sources */,
+				534238A11DE3600C000A6FF5 /* Frameworks */,
+				534238A21DE3600C000A6FF5 /* Resources */,
+				D07F7841BF5EE31CD0431620 /* [CP] Embed Pods Frameworks */,
+				EF46531B33992FC1F1408DCE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				534238A61DE3600C000A6FF5 /* PBXTargetDependency */,
+			);
+			name = OTTCTests;
+			productName = OTTCTests;
+			productReference = 534238A41DE3600C000A6FF5 /* OTTCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		534238AE1DE3600C000A6FF5 /* OTTCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 534238BE1DE3600D000A6FF5 /* Build configuration list for PBXNativeTarget "OTTCUITests" */;
+			buildPhases = (
+				D6318CC83743A9936AD218D4 /* [CP] Check Pods Manifest.lock */,
+				534238AB1DE3600C000A6FF5 /* Sources */,
+				534238AC1DE3600C000A6FF5 /* Frameworks */,
+				534238AD1DE3600C000A6FF5 /* Resources */,
+				BFFE6330A4F76AF868075611 /* [CP] Embed Pods Frameworks */,
+				383677B81991D07A336962B5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				534238B11DE3600C000A6FF5 /* PBXTargetDependency */,
+			);
+			name = OTTCUITests;
+			productName = OTTCUITests;
+			productReference = 534238AF1DE3600C000A6FF5 /* OTTCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		73E209231E09931600CDF409 /* OTTCWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73E209311E09931A00CDF409 /* Build configuration list for PBXNativeTarget "OTTCWidget" */;
+			buildPhases = (
+				FFFE77D6BD1A68DBD78D08BD /* [CP] Check Pods Manifest.lock */,
+				73E209201E09931600CDF409 /* Sources */,
+				73E209211E09931600CDF409 /* Frameworks */,
+				73E209221E09931600CDF409 /* Resources */,
+				0AAA9E73ADA774CD23971A28 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73946E9C1E5615BF00B7E97B /* PBXTargetDependency */,
+			);
+			name = OTTCWidget;
+			productName = OTTCWidget;
+			productReference = 73E209241E09931600CDF409 /* OTTCWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		534238851DE3600C000A6FF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Rafael;
+				TargetAttributes = {
+					5342388C1DE3600C000A6FF5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AALTX9S89F;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					534238A31DE3600C000A6FF5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5342388C1DE3600C000A6FF5;
+					};
+					534238AE1DE3600C000A6FF5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5342388C1DE3600C000A6FF5;
+					};
+					73E209231E09931600CDF409 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = AALTX9S89F;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 534238881DE3600C000A6FF5 /* Build configuration list for PBXProject "OTTC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 534238841DE3600C000A6FF5;
+			productRefGroup = 5342388E1DE3600C000A6FF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5342388C1DE3600C000A6FF5 /* OTTC */,
+				534238A31DE3600C000A6FF5 /* OTTCTests */,
+				534238AE1DE3600C000A6FF5 /* OTTCUITests */,
+				73E209231E09931600CDF409 /* OTTCWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5342388B1DE3600C000A6FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537805801DE76957003AF1C7 /* EditPerfilViewController.xib in Resources */,
+				533830E21E26621D00A79752 /* MainInterface.storyboard in Resources */,
+				53CA399C1E1C215600FD7824 /* PlayerCollectionViewCell.xib in Resources */,
+				5378057A1DE75E59003AF1C7 /* PerfilViewController.xib in Resources */,
+				534238C81DE367DF000A6FF5 /* LoginViewController.xib in Resources */,
+				534238D21DE374B0000A6FF5 /* ForgetViewController.xib in Resources */,
+				534238CE1DE37420000A6FF5 /* RegisterViewController.xib in Resources */,
+				5342389E1DE3600C000A6FF5 /* LaunchScreen.storyboard in Resources */,
+				5342389B1DE3600C000A6FF5 /* Assets.xcassets in Resources */,
+				534238961DE3600C000A6FF5 /* Main.storyboard in Resources */,
+				5322C60F1E1D562000644576 /* LocalData.plist in Resources */,
+				53DC8E511DE69F920057CA02 /* ListItemTripInfoTableViewCell.xib in Resources */,
+				738B56E11E896B5A004FC7E3 /* Config.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534238A21DE3600C000A6FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534238AD1DE3600C000A6FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73E209221E09931600CDF409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E209351E09986F00CDF409 /* Assets.xcassets in Resources */,
+				73E2092C1E09931A00CDF409 /* MainInterface.storyboard in Resources */,
+				533830E01E265F1900A79752 /* LocalData.plist in Resources */,
+				5384B0EB1E3773DB00BB6544 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AAA9E73ADA774CD23971A28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OTTCWidget/Pods-OTTCWidget-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		383677B81991D07A336962B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OTTCUITests/Pods-OTTCUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B19661E810892D91E441BFB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OTTC/Pods-OTTC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		588376F108B05F65B2C9AE4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFFE6330A4F76AF868075611 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OTTCUITests/Pods-OTTCUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D07F7841BF5EE31CD0431620 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OTTCTests/Pods-OTTCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6318CC83743A9936AD218D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF46531B33992FC1F1408DCE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OTTCTests/Pods-OTTCTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAED6A4FB7CE63A620B537B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OTTC/Pods-OTTC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBD86D09F55323371E817A5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFFE77D6BD1A68DBD78D08BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		534238891DE3600C000A6FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537805821DE769DF003AF1C7 /* EditPerfilViewController.swift in Sources */,
+				534238CA1DE36812000A6FF5 /* LoginViewController.swift in Sources */,
+				53DC8E5B1DE6A5C90057CA02 /* TripsTableViewController.swift in Sources */,
+				5327E5801DEB3310004026A8 /* Users.swift in Sources */,
+				534238991DE3600C000A6FF5 /* OTTC.xcdatamodeld in Sources */,
+				53BC2AE51DEDC3D300BB6BDA /* OperatorViewController.swift in Sources */,
+				534238D61DE374CC000A6FF5 /* RegisterViewController.swift in Sources */,
+				53CF1A5C1DEE56DF00EC4E1A /* Points.swift in Sources */,
+				534238931DE3600C000A6FF5 /* ViewController.swift in Sources */,
+				534238D51DE374CC000A6FF5 /* ForgetViewController.swift in Sources */,
+				531A0A2A1DE47CDF0074F09F /* SACCellViewController.swift in Sources */,
+				53DC8E581DE69FE80057CA02 /* ListItemTripInfoTableViewCell.swift in Sources */,
+				5378057C1DE75E9A003AF1C7 /* PerfilViewController.swift in Sources */,
+				5348DB6D1E1EC62C00E95DCC /* Plist.swift in Sources */,
+				53DE1B301DFF05250035B211 /* Validation.swift in Sources */,
+				730F011B1E6887D700C01A8E /* EventChannel.swift in Sources */,
+				534238911DE3600C000A6FF5 /* AppDelegate.swift in Sources */,
+				531A0A2E1DE49D580074F09F /* SACViewController.swift in Sources */,
+				53DC8E4A1DE692550057CA02 /* TabViewController.swift in Sources */,
+				531A0A2C1DE490980074F09F /* SACINPUTViewController.swift in Sources */,
+				53316AAD1DE8C05700C7CF19 /* API.swift in Sources */,
+				533830E11E26615D00A79752 /* TodayViewController.swift in Sources */,
+				537805861DE78DC7003AF1C7 /* MapViewController.swift in Sources */,
+				53CF1A5E1DEE68A000EC4E1A /* Trips.swift in Sources */,
+				53CA399E1E1C21A000FD7824 /* PlayerCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534238A01DE3600C000A6FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534238A91DE3600C000A6FF5 /* OTTCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534238AB1DE3600C000A6FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534238B41DE3600C000A6FF5 /* OTTCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73E209201E09931600CDF409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730F011C1E6887D700C01A8E /* EventChannel.swift in Sources */,
+				5347701D1E3FC7DC003BC32A /* OperatorViewController.swift in Sources */,
+				73E209291E09931900CDF409 /* TodayViewController.swift in Sources */,
+				534770181E3FC6CE003BC32A /* API.swift in Sources */,
+				534770191E3FC71E003BC32A /* Plist.swift in Sources */,
+				5347701C1E3FC76F003BC32A /* AppDelegate.swift in Sources */,
+				5347701E1E3FC7EF003BC32A /* PlayerCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		534238A61DE3600C000A6FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5342388C1DE3600C000A6FF5 /* OTTC */;
+			targetProxy = 534238A51DE3600C000A6FF5 /* PBXContainerItemProxy */;
+		};
+		534238B11DE3600C000A6FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5342388C1DE3600C000A6FF5 /* OTTC */;
+			targetProxy = 534238B01DE3600C000A6FF5 /* PBXContainerItemProxy */;
+		};
+		73946E9C1E5615BF00B7E97B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5342388C1DE3600C000A6FF5 /* OTTC */;
+			targetProxy = 73946E9B1E5615BF00B7E97B /* PBXContainerItemProxy */;
+		};
+		73E2092F1E09931A00CDF409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73E209231E09931600CDF409 /* OTTCWidget */;
+			targetProxy = 73E2092E1E09931A00CDF409 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		534238941DE3600C000A6FF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				534238951DE3600C000A6FF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5342389C1DE3600C000A6FF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5342389D1DE3600C000A6FF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		73E2092A1E09931A00CDF409 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73E2092B1E09931A00CDF409 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		534238B61DE3600C000A6FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		534238B71DE3600C000A6FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		534238B91DE3600C000A6FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F94B92330FF6C0DDC5D08F4 /* Pods-OTTC.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OTTC/OTTC.entitlements;
+				DEVELOPMENT_TEAM = AALTX9S89F;
+				INFOPLIST_FILE = OTTC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scipopulis.ottc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		534238BA1DE3600C000A6FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 443F37DCC587ADF71C98B0DE /* Pods-OTTC.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OTTC/OTTC.entitlements;
+				DEVELOPMENT_TEAM = AALTX9S89F;
+				INFOPLIST_FILE = OTTC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scipopulis.ottc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		534238BC1DE3600C000A6FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E34C748AA0777E81D99B774 /* Pods-OTTCTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OTTCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = scipopulis.OTTCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTTC.app/OTTC";
+			};
+			name = Debug;
+		};
+		534238BD1DE3600C000A6FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 598F7A8AF7E6BA7574622525 /* Pods-OTTCTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OTTCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = scipopulis.OTTCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTTC.app/OTTC";
+			};
+			name = Release;
+		};
+		534238BF1DE3600D000A6FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1301F32AF1F538E352BDDC49 /* Pods-OTTCUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = OTTCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = scipopulis.OTTCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OTTC;
+			};
+			name = Debug;
+		};
+		534238C01DE3600D000A6FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5836797FC340FFC52C44AB8B /* Pods-OTTCUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = OTTCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = scipopulis.OTTCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OTTC;
+			};
+			name = Release;
+		};
+		73E209321E09931A00CDF409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FCE412FE36A161DBDE7C0D7 /* Pods-OTTCWidget.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OTTCWidget/OTTCWidget.entitlements;
+				DEVELOPMENT_TEAM = AALTX9S89F;
+				INFOPLIST_FILE = OTTCWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scipopulis.ottc.OTTCWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		73E209331E09931A00CDF409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03F0498C6896A274F4FEBFD0 /* Pods-OTTCWidget.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OTTCWidget/OTTCWidget.entitlements;
+				DEVELOPMENT_TEAM = AALTX9S89F;
+				INFOPLIST_FILE = OTTCWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scipopulis.ottc.OTTCWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		534238881DE3600C000A6FF5 /* Build configuration list for PBXProject "OTTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				534238B61DE3600C000A6FF5 /* Debug */,
+				534238B71DE3600C000A6FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		534238B81DE3600C000A6FF5 /* Build configuration list for PBXNativeTarget "OTTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				534238B91DE3600C000A6FF5 /* Debug */,
+				534238BA1DE3600C000A6FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		534238BB1DE3600C000A6FF5 /* Build configuration list for PBXNativeTarget "OTTCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				534238BC1DE3600C000A6FF5 /* Debug */,
+				534238BD1DE3600C000A6FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		534238BE1DE3600D000A6FF5 /* Build configuration list for PBXNativeTarget "OTTCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				534238BF1DE3600D000A6FF5 /* Debug */,
+				534238C01DE3600D000A6FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73E209311E09931A00CDF409 /* Build configuration list for PBXNativeTarget "OTTCWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E209321E09931A00CDF409 /* Debug */,
+				73E209331E09931A00CDF409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		534238971DE3600C000A6FF5 /* OTTC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				534238981DE3600C000A6FF5 /* OTTC.xcdatamodel */,
+			);
+			currentVersion = 534238981DE3600C000A6FF5 /* OTTC.xcdatamodel */;
+			path = OTTC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 534238851DE3600C000A6FF5 /* Project object */;
+}
